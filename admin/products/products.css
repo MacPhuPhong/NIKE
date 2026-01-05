@@ -1,0 +1,49 @@
+table thead{
+    background-color: black;
+    color: white;
+}
+.search-results {
+    margin-top: 100px;
+}
+h2{
+    margin-left: 10px;
+}
+.head-row{
+    margin-bottom: 20px;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: white;
+    background-color: black;
+    border-color: gray;
+}
+.page-link {
+    color: black;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+.btn-add ,.btn-update ,.btn-primary ,.btn-sort{
+    background-color: black;
+    color: white;
+    border: gray;
+}
+.btn-add:hover , .btn-update:hover ,.btn-primary:hover ,.btn-sort:hover{
+    background-color: rgb(73, 73, 73);
+}
+/* searchhhhhhhhhhhhhhhhhhhhh */
+.search-results {
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.search-results h2 {
+    margin-left: 0px; /* Đảm bảo tiêu đề không bị thụt vào bên trái quá mức */
+}
+
+.search-results table {
+    margin-top: 20px; /* Thêm khoảng cách giữa tiêu đề và bảng */
+}
+.search-results th,
+.search-results td {
+    padding: 10px; /* Thêm padding cho ô trong bảng */
+}

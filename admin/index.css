@@ -1,0 +1,88 @@
+body {
+  background-image: url("https://media.istockphoto.com/id/1286354786/vector/dark-prism-textured-abstract-background.jpg?s=170667a&w=0&k=20&c=BjdLgLPbEZT_SAv11uan7CeFdIJVmliFQb6KEZz71aY=");
+  background-size: 100%;
+  background-attachment: fixed;
+  /* padding-left: 5px;
+    padding-right: 5px; */
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  background-size: 100%;
+  background-attachment: fixed;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+form {
+  text-align: center;
+  margin: 0 auto;
+  border: 2px solid white;
+  margin-top: 180px;
+  margin-bottom: 100px;
+  padding-bottom: 50px;
+  width: 450px;
+  height: max-content;
+  border-radius: 20px;
+  /* background-color: rgba(55, 55, 55, 0.52); */
+  background-color: transparent;
+}
+
+section label {
+  color: white;
+  margin-left: -240px;
+}
+
+section h3 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+section .text {
+  width: 90%;
+  max-width: 315px;
+  height: 33px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 30px;
+}
+
+::placeholder {
+  color: white;
+}
+
+.dieukhoan {
+  font-size: 70%;
+  color: whitesmoke;
+  margin-left: 110px;
+}
+
+.dieukhoan1 {
+  font-size: 70%;
+  color: white;
+}
+
+.btnsignin {
+  cursor: pointer;
+  text-align: center;
+  border: 2px solid white;
+  background-color: transparent;
+  margin: 10px auto;
+  width: 90%;
+  max-width: 315px;
+  height: 35px;
+  color: white;
+  font-size: 90%;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.btnsignin:hover {
+  background-color: black;
+}
+

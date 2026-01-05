@@ -1,0 +1,71 @@
+.logo a img{
+  height: 5%;
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
+}
+.menu-sidebar .logo {
+  background: #fff;
+  height: 75px;
+  box-shadow: none;
+  text-align: center;
+}
+.avartar {
+  border-radius: 50%;
+}
+
+.navbar__list .active a {
+color: white !important;
+background-image: url("https://media.istockphoto.com/id/1286354786/vector/dark-prism-textured-abstract-background.jpg?s=170667a&w=0&k=20&c=BjdLgLPbEZT_SAv11uan7CeFdIJVmliFQb6KEZz71aY=");
+border-radius: 30px;
+}
+.page-wrapper .menu-sidebar .navbar-sidebar .navbar__list li a:hover {
+background-image: url("https://media.istockphoto.com/id/1286354786/vector/dark-prism-textured-abstract-background.jpg?s=170667a&w=0&k=20&c=BjdLgLPbEZT_SAv11uan7CeFdIJVmliFQb6KEZz71aY=");
+color: white;
+border-radius: 30px;
+transition: none;
+}
+.navbar__list .active {
+background-color: #f8f9fa;
+padding: 0 5px;
+}
+
+.menu-sidebar .navbar-sidebar .navbar__list li a {
+display: block;
+color: #555;
+font-size: 16px;
+padding: 15px 20px;
+}
+
+.menu-sidebar .navbar-sidebar {
+padding: 35px 0px;
+padding-bottom: 0;
+}
+.menu-sidebar {
+  border-radius: 0px 55px 55px 0px;
+}
+.header-desktop{
+background-color: white;
+box-shadow: none;
+}
+.header-desktop{
+border-radius: 40px 0px 0px 40px;
+left: 340px;
+}
+
+.treeview-menu {
+  display: none;
+}
+
+.treeview.active>a {
+  background-color: #f8f8f8;
+}
+
+.treeview.active>ul {
+  display: block;
+}
+.sub-menu-item {
+  padding-left: 30px; /* Khoảng cách từ trái để làm nổi bật thẻ con */
+  background-color: #f2f2f2; /* Màu nền cho thẻ con */
+  margin-top: 5px;
+}

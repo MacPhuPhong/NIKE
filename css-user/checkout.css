@@ -1,0 +1,73 @@
+.ctn {
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+.paypal-button.paypal-button-shape-pill {
+    z-index: 0;
+}
+
+.form-group input {
+    width: 100%;
+}
+
+.btn-payment {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.btn-payment:hover {
+    background-color: rgb(71, 69, 69);
+}
+
+table thead {
+    background-color: black;
+    color: white;
+}
+
+.div-anh {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* This ensures the image takes the full height of the container */
+}
+
+.anh-login {
+    width: 80%;
+    padding: 20px;
+    border-radius: 5%;
+    border: 2px black solid;
+}
+
+.div-no-login {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 600px;
+}
+
+.div-login {
+    font-size: 20px;
+    padding: 15px 15px;
+    border: 1px solid transparent;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    /* Horizontally center the content */
+    align-items: center;
+    /* Vertically center the content */
+}
+
+.div-login .div-login-con {
+    padding: 15px 15px;
+    background-color: white;
+    height: 100%;
+    border-radius: 5%;
+}
+.no-products{
+    background-color: black;
+    color: black;
+}

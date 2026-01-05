@@ -1,0 +1,152 @@
+h2.title:after{
+  content: none;
+}
+h2.title:before  {
+  content: none;  
+}
+.left-sidebar h2:before{
+  content: none;
+}
+.left-sidebar h2:after{
+  content: none;
+}
+.productinfo a {
+  overflow: hidden;
+  display: block;
+}
+.productinfo img {
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.5s;
+  display: block;
+}
+.productinfo img:hover {
+  transform: scale(1.2);
+}
+.add-to-cart:hover {
+  background-color: rgb(50, 50, 50);
+  color: rgb(236, 235, 235);
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid rgb(50, 50, 50);
+}
+.add-to-cart {
+  border-radius: 5px;
+  background: black;
+  color: white;
+  border: 1px solid black;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+h2.title{
+  color: black;
+}
+.so-trang{
+  margin-top: -30px;
+}
+.section-tong{
+margin-bottom: 50px;
+}
+
+.pagination .page-link {
+  color: #000; 
+}
+.pagination .page-item.active .page-link {
+  background-color: #000; 
+  color: #fff; 
+}
+.pagination .page-link:hover {
+  background-color: #000; 
+  color: #fff; 
+}
+.sort-dropdown {
+position: relative;
+display: inline-block;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+z-index: 1;
+}
+
+.dropdown-content li {
+display: block;
+}
+
+.dropdown-content button {
+color: black;
+background-color: white;
+padding: 5px 6px;
+text-decoration: none;
+display: block;
+width: 100px;
+border: none;
+}
+.dropdown-content button:hover{
+background-color: gainsboro;
+}
+
+.dropdown-content a:hover {
+background-color: #f1f1f1;
+}
+
+.dropdown-btn {
+background-color: black;
+color: white;
+font-weight: bold;
+padding: 7px 15px;
+border-radius: 20px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+}
+
+.dropdown-btn:hover {
+background-color:rgb(38, 37, 37);
+}
+
+.sort-dropdown:hover .dropdown-content {
+display: block;
+}
+
+.title-bar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 10px;
+}
+
+.title {
+margin: 0;
+}
+
+.sort-dropdown {
+margin-left: 10px;
+}
+
+.dropdown-btn {
+margin-top: 0;
+margin-right: 15px;
+}
+.product-details {
+  display: none;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.864);
+  color: white;
+  padding-bottom: 0px;
+  transition: all 0.3s ease;
+  padding-left: 0px;
+}
+
+.productinfo img {
+  margin-bottom: 30px;
+}
+
+.product-link:hover .product-details {
+  display: block;
+}

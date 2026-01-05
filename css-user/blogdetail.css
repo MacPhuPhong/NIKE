@@ -1,0 +1,16 @@
+.sinlge-post-meta li i:after, .blog-post-area .post-meta ul li i:after {
+    border-color: transparent transparent transparent white;
+}
+.blog-post-area .post-meta ul li i {
+    background: #000000;
+}
+.alert-danger {
+    color: black;
+    background-color: white;
+    border: solid 1px black ;
+	margin-left: 10px;
+}
+.btn-send{
+    background-color: black;
+    color: white;
+}

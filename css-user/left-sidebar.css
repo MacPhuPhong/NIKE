@@ -1,0 +1,21 @@
+.left-sidebar h2{
+    color: black;
+}
+.left-sidebar {
+    position: fixed;
+}
+.tong {
+    width: 23%;
+}
+.category-products .panel-default .muc-mot h4 {
+    color: black;
+	font-size: 18px;
+	padding-top: 5px ;
+	padding-bottom: 5px;
+}
+.category-products .panel-default {
+    text-decoration: none;
+}
+.panel-body ul li a {
+    color: black;
+}

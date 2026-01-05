@@ -1,0 +1,140 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: black;
+  color: white;
+}
+.Noi-bat {
+    width: 100%;
+    height: 50vw;
+    position: relative;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .trong {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+  }
+  .slogan {
+    display: flex;
+  }
+  
+  .Noi-bat h1 {
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+    font-size: 400%;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  @media (max-width: 932px) {
+    .Noi-bat h1 {
+      font-size: 100%;
+    }
+  }
+  
+  .video-behind {
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+  }
+  
+  /* ---------- */
+  .bai1 {
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+  }
+  
+  .noidung1 {
+    margin-left: 40px;
+  }
+  
+  .noidung1 details {
+    font-size: small;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .bai2 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+  }
+  
+  .noidung2 {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  
+  .noidung2 details {
+    font-size: small;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .bai4 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  summary {
+    cursor: pointer;
+  }
+  
+  .anh1 {
+    width: 40%;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
+  
+  .anh2 {
+    width: 40%;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .anh3 {
+    width: 40%;
+    margin-left: 20px;
+    border-radius: 10%;
+    margin-bottom: 30px;
+  }
+  
+  .anh4 {
+    width: 60%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+  
+  .btn-shop {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    font-weight: bold;
+  }
+  
+  .btn-shop:hover {
+    background-color: white;
+    color: black;
+  }
+  .btn.btn-primary {
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+      background: black;
+      margin-top: 16px;
+  }
+  .btn.btn-primary:hover{
+    background-color: white;
+    color: black;
+  }
+  

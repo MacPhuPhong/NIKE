@@ -1,0 +1,9 @@
+.tong{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 0 20px;
+}
+table thead{
+    background-color: black;
+    color: white;
+}

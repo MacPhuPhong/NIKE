@@ -1,0 +1,22 @@
+RewriteEngine On
+
+RewriteRule 'index.html'    'index.php'
+RewriteRule  'shop.html'      'shop.php'
+RewriteRule  'blog.html'      'blog.php'
+RewriteRule 'contact.html'    'contact-us.php'
+RewriteRule 'login.html'   'login.php'
+RewriteRule 'orders.html'   'orders.php'
+RewriteRule 'cart.html'   'cart.php'
+RewriteRule 'checkout.html'   'checkout.php'
+RewriteRule 'profile.html'   'profile.php'
+RewriteRule 'changePass.html'   'changePass.php'
+RewriteRule 'profile.html'   'profile.php'
+RewriteRule 'ordercanceled.html'   'ordercanceled.php'
+
+
+
+RewriteRule  ^(.*)-([0-9]*)-sp-([0-9]*).html$    product-details.php?cat_item=$2&id_sp=$3
+RewriteRule  ^(.*)-([0-9]*)-([0-9]*).html$  category.php?id_cat=$2&id_item=$3
+RewriteRule  ^(.*)-([0-9]+).html$  blogdetail.php?id_blog=$2
+RewriteRule  ^(.*)-page-([0-9])   index.php?page=$2
+RewriteRule  ^(.*)-([0-9]+).html1$ orderdetail.php?id=$2

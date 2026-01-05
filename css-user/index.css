@@ -1,0 +1,533 @@
+body {
+    overflow-x: hidden;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* article */
+.article {
+    width: 100%;
+}
+
+.trangchu {
+    width: 100%;
+    height: 50vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.tongchu {
+    display: flex;
+    align-items: center;
+}
+
+.trangchu h1 {
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+    font-size: 500%;
+    font-weight: bold;
+}
+
+@media (max-width: 932px) {
+    .trangchu h1 {
+        font-size: 25px;
+    }
+}
+
+.video-behind {
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+}
+
+.slogan {
+    list-style-type: none;
+    font-size: 300%;
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+}
+
+@media (max-width: 932px) {
+    .slogan {
+        font-size: 25px;
+    }
+}
+
+.gach {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn-trangchu {
+    margin-bottom: 5%;
+    margin-top: 20px;
+}
+
+.btn-trangchu a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    border: 3px solid black;
+    font-weight: bolder;
+    border-radius: 30px;
+}
+
+.btn-trangchu a:hover {
+    color: white;
+    background-color: black;
+}
+
+/* ------------------------------- */
+.Tieu-de-noi-bat {
+    font-size: 25px;
+    margin-top: 3%;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 4%;
+    font-weight: bold;
+}
+
+.Noi-bat {
+    background-color: black;
+    height: max-content;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.the {
+    padding-top: 1%;
+    padding-bottom: 12%;
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.the1 {
+    margin-top: 10px;
+    padding: 20px 20px 20px;
+    width: 400px;
+    height: max-content;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.btn-noibat a {
+    border: 2px solid black;
+    width: 90px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-noibat a:hover {
+    background-color: black;
+    color: white;
+}
+
+.the1 p {
+    /* padding-top: 1%; */
+    padding-bottom: 30%;
+    margin-bottom: 2px;
+}
+
+.the2 {
+    margin-top: 10px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.img-noibat {
+    width: 95%;
+    padding-left: 5%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+@media screen and (max-width: 400px) {
+    .img-noibat {
+        width: calc(100%);
+        height: auto;
+    }
+}
+
+.thevideo {
+    margin-top: 10px;
+    width: 400px;
+    height: max-content;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.video-noibat {
+    width: 100%;
+    height: 345px;
+    /* border: solid 2px white; */
+}
+
+/* ---------------------------------------------- */
+/* slider  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.slider {
+    padding-left: 20px;
+    background-color: white;
+}
+
+.Tieu-de-slider {
+    font-size: 25px;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.Tieu-de-slider a {
+    color: black;
+    text-decoration: none;
+}
+
+.wrapper {
+    display: flex;
+    max-width: 1500px;
+    position: relative;
+}
+
+.wrapper i {
+    top: 50%;
+    height: 44px;
+    width: 44px;
+    color: #343F4F;
+    cursor: pointer;
+    font-size: 1.15rem;
+    position: absolute;
+    text-align: center;
+    line-height: 44px;
+    background: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+    margin-right: 25px;
+}
+
+.wrapper i:active {
+    transform: translateY(-50%) scale(0.9);
+}
+
+.wrapper i {
+    color: white;
+    background-color: black;
+}
+
+.wrapper i:first-child {
+    left: -15px;
+    display: none;
+}
+
+.wrapper i:last-child {
+    /* margin-top: 5px; */
+    right: -22px;
+}
+
+.wrapper .carousel {
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+.carousel.dragging {
+    cursor: grab;
+    scroll-behavior: auto;
+}
+
+.carousel.dragging img {
+    pointer-events: none;
+}
+
+.carousel img {
+    height: auto;
+    object-fit: cover;
+    user-select: none;
+    margin-left: 14px;
+    width: calc(100% / 3);
+}
+
+.carousel img:first-child {
+    margin-left: 0px;
+}
+
+@media screen and (max-width: 900px) {
+    .carousel img {
+        width: calc(100% / 2);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .carousel img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-height: 750px) {
+    .carousel img {
+        height: 100%;
+    }
+}
+
+/* đóng slider  */
+/* giới tính */
+.tonggioitinh {
+    background-color: black;
+}
+
+.gioitinh {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 7%;
+}
+
+.Tieu-de-gioi-tinh {
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+
+.gioitinh a {
+    text-decoration: none;
+    color: white;
+}
+
+.gioitinh a:hover {
+    background-color: transparent;
+}
+
+.anhgioitinh {
+    width: 90%;
+    max-width: 500px;
+    transition: transform 0.3s;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.anhgioitinh:hover {
+    transform: scale(1.1);
+}
+
+/* đóng giới tính */
+/* -----SIGNUP */
+.signup {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: white;
+}
+
+.signup h1 {
+    margin-left: 20%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+@media (max-width: 932px) {
+    .signup h1 {
+        font-size: 25px;
+        margin-left: 5%;
+    }
+}
+
+.btnsignup {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.btnsignup a {
+    text-decoration: none;
+    background-color: transparent;
+    text-align: center;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    border: 4px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+@media (max-width: 932px) {
+    .btnsignup a {
+        margin-left: 50px;
+    }
+}
+
+.btnsignup a:hover {
+    color: white;
+    background-color: black;
+}
+
+/* ----------thể thao----------- */
+.tongthethao {
+    background-color: white;
+    padding-bottom: 5%;
+}
+
+.Tieu-de-the-thao {
+    font-size: 25px;
+    margin-left: 40px;
+    padding-top: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.Tieu-de-the-thao a {
+    color: black;
+    text-decoration: none;
+}
+
+.thethao {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.thethao a {
+    text-decoration: none;
+    position: absolute;
+    margin: 20px;
+    padding: 5px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: whitesmoke;
+}
+
+.thethao a:hover {
+    background: black;
+    color: white;
+}
+
+.bongda {
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_300,c_limit/5027a28c-3984-4287-94d1-ee6198238ce9/nike-just-do-it.jpg");
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-top: 10px;
+    border: 3px solid black;
+}
+
+.bongro {
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_300,c_limit/be13cfe4-b5a9-4c26-bee0-b716e98b099d/nike-just-do-it.jpg");
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-top: 10px;
+    border: 3px solid black;
+}
+
+.training {
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_300,c_limit/3aef76c8-46c5-4f2a-a18c-3e9bdc148433/nike-just-do-it.jpg");
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-top: 10px;
+    border: 3px solid black;
+}
+
+
+
+
+/* hieuu ứng */
+.hieu-ung {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fade-out 5s forwards;
+    overflow: hidden;
+    background-color: black;
+}
+
+.anh-hieu-ung {
+    width: 50%;
+    height: auto;
+    animation: fade-out 5s forwards;
+}
+
+@keyframes fade-out {
+
+    /* Thiết lập độ trong suốt của ảnh GIF là 1 (hoàn toàn hiển thị) khi bắt đầu animation */
+    from {
+        opacity: 1;
+    }
+
+    /* Thiết lập độ trong suốt của ảnh GIF là 0 (hoàn toàn biến mất) khi kết thúc animation */
+    to {
+        opacity: 0;
+    }
+}
+
+.qr-code {
+    display: none;
+    position: absolute;
+    border-radius: 10px;
+    left: 180px;
+    top: -50px;
+    width: 150px;
+    height: 150px;
+}
+
+.qr-logo:hover+.qr-code {
+    display: block;
+}
+
+.qr-logo:hover {
+    opacity: 1;
+    /* giữ nguyên độ mờ của logo */
+}

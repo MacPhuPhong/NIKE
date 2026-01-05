@@ -1,0 +1,104 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("https://media.istockphoto.com/id/1286354786/vector/dark-prism-textured-abstract-background.jpg?s=170667a&w=0&k=20&c=BjdLgLPbEZT_SAv11uan7CeFdIJVmliFQb6KEZz71aY=");
+    background-size: 100%;
+    background-attachment: fixed;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  
+  
+  /* -------------Nội dung----------------------- */
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .form {
+    text-align: center;
+    margin: 0 auto;
+    border: 3px solid white;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+    width: 100%;
+    max-width: 900px;
+    height: max-content;
+    border-radius: 5px;
+    background-color: transparent;
+  }
+  
+  .logoform {
+    position: absolute;
+    margin-left: -24%;
+    width: 6%;
+    margin-top: 50px;
+  }
+  
+ form h1, .h1 {
+    padding-top: 50px;
+    margin-bottom: 30px;
+    color: white;
+}
+  
+  .text {
+    width: 80%;
+    max-width: 550px;
+    height: 30px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(253, 250, 250);
+    background-color: transparent;
+    color: white;
+  }
+  
+  ::placeholder {
+    color: white;
+  }
+  
+  .textarea {
+    height: auto;
+    width: 80%;
+    max-width: 550px;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding-left: 10px;
+    background-color: transparent;
+    color: white;
+  }
+  
+  .submit {
+    margin-top: 15px;
+    margin-bottom: 50px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .submit:hover {
+    background-color: black;
+    color: white;
+  }
+
+  div:where(.swal2-container) div:where(.swal2-popup) {
+    width: 49em;
+    max-width: 100%;
+  }
+  
+  /*------------------- đóng nội dung ----------------*/
+  
+  

@@ -1,0 +1,27 @@
+# Bật mod_rewrite
+RewriteEngine On
+RewriteBase /eshopper/
+
+# -----------------------------
+# 1️⃣ Các trang tĩnh
+# -----------------------------
+RewriteRule ^index\.html$ index.php [L]
+RewriteRule ^shop\.html$ shop.php [L]
+RewriteRule ^blog\.html$ blog.php [L]
+RewriteRule ^contact\.html$ contact-us.php [L]
+RewriteRule ^login\.html$ login.php [L]
+RewriteRule ^orders\.html$ orders.php [L]
+RewriteRule ^cart\.html$ cart.php [L]
+RewriteRule ^checkout\.html$ checkout.php [L]
+RewriteRule ^profile\.html$ profile.php [L]
+RewriteRule ^changePass\.html$ changePass.php [L]
+RewriteRule ^ordercanceled\.html$ ordercanceled.php [L]
+
+# -----------------------------
+# 2️⃣ Các URL động có tham số
+# -----------------------------
+RewriteRule ^(.*)-([0-9]+)-sp-([0-9]+)\.html$ product-details.php?cat_item=$2&id_sp=$3 [L,QSA]
+RewriteRule ^(.*)-([0-9]+)-([0-9]+)\.html$ category.php?id_cat=$2&id_item=$3 [L,QSA]
+RewriteRule ^(.*)-([0-9]+)\.html$ blogdetail.php?id_blog=$2 [L,QSA]
+RewriteRule ^(.*)-page-([0-9]+)$ index.php?page=$2 [L,QSA]
+RewriteRule ^(.*)-([0-9]+)\.html1$ orderdetail.php?id=$2 [L,QSA]
