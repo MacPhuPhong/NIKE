@@ -1,0 +1,31 @@
+# ===== Video / Media lớn =====
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.flv
+
+# ===== Thư mục video cụ thể =====
+template/video/
+videos/
+media/
+uploads/
+
+# ===== Thư viện / package =====
+vendor/
+node_modules/
+
+# ===== File môi trường =====
+.env
+
+# ===== Log / cache =====
+*.log
+cache/
+tmp/
+
+# ===== OS / Editor =====
+.DS_Store
+.vscode/
+.idea/
+
